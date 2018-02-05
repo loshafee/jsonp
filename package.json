@@ -1,0 +1,21 @@
+{
+  "name": "jsonp-request",
+  "version": "0.0.1",
+  "description": "A ES6 JSONP module using promise",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loshafee/jsonp"
+  },
+  "keywords": [
+    "jsonp",
+    "promise",
+    "es6"
+  ],
+  "author": "loshafee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/loshafee/jsonp/issues"
+  },
+  "homepage": "https://github.com/loshafee/jsonp#readme"
+}
