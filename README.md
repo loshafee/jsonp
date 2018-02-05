@@ -71,7 +71,7 @@ If you may need to remove an interceptor later you can.
 The plugin for [Vue.js](https://vuejs.org/) provides services for making web requests and handle response using jsonp
 
     const Vue   = require('Vue')
-    const jsonp = require('jsonp-request)
+    const jsonp = require('jsonp-request')
     Vue.prototype.$jsonp = jsonp
 
 ## License
