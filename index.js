@@ -127,11 +127,11 @@
   }
 
   /** 模块化封装 */
-  if (typeof define !== undefined && define.amd) {
+  if (typeof define !== 'undefined' && define.amd) {
     define([], function () {
       return jsonp
     })
-  } else if (typeof module !== undefined && module.exports) {
+  } else if (typeof module !== 'undefined' && module.exports) {
     module.exports = jsonp
   } else {
     root.jsonp = jsonp
