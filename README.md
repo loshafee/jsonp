@@ -1,5 +1,5 @@
-# jsonp
-a ES6 jsonp module using promise
+# jsonp-request
+a jsonp module using promise
 
 ## Installation && Usage
 ### Browser
