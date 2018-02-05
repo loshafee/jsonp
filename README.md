@@ -1,10 +1,24 @@
 # jsonp
 a ES6 jsonp module using promise
 
-## Installation
+## Installation && Usage
+### Browser
+In a browser, you can use `jsonp-request` as follows:
+
+    <script src='./lib/jsonp.js' charset='utf8'><script>
+
+it also can be a AMD module while using require.js
+
+### NodeJS
+
 Install for node.js using `npm`
 
     npm install jsonp-request
+
+Require module using `require`
+
+    const jsonp = require('jsonp-request)
+
 
 ## Example 
 Performing a jsonp request
@@ -52,6 +66,13 @@ If you may need to remove an interceptor later you can.
 
     var myInterceptor = jsonp.interceptors.request.use(() => {/*...*/})
     jsonp.interceptors.request.eject(myInterceptor)
+
+## VUE plugin
+The plugin for [Vue.js](https://vuejs.org/) provides services for making web requests and handle response using jsonp
+
+    const Vue   = require('Vue')
+    const jsonp = require('jsonp-request)
+    Vue.prototype.$jsonp = jsonp
 
 ## License
 MIT
