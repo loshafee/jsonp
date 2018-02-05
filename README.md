@@ -74,6 +74,9 @@ The plugin for [Vue.js](https://vuejs.org/) provides services for making web req
     const jsonp = require('jsonp-request')
     Vue.prototype.$jsonp = jsonp
 
+## Reference 
+Promise based HTTP client for the browser and node.js [axios](https://github.com/axios/axios)
+
 ## License
 MIT
 
