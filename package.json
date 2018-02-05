@@ -1,6 +1,6 @@
 {
   "name": "jsonp-request",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A ES6 JSONP module using promise",
   "main": "index.js",
   "repository": {
