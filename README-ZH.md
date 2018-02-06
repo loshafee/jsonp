@@ -7,7 +7,7 @@
 
     <script src='./lib/jsonp.js' charset='utf8'><script>
 
-it also can be a AMD module while using require.js
+该模块 `jsonp-request` 也可以作为 `AMD` 模块使用
 
 ### NodeJS 环境
 
